@@ -1,0 +1,37 @@
+# DS-3002 Assignment #4 — Requirements
+# Generated for: FAST-NUCES BSDS Spring 2026
+# Hardware target: 4 GB RAM, no GPU required
+# Install: pip install -r requirements.txt
+
+# ── Core data science ─────────────────────────────────────────────────────────
+numpy>=1.24.0
+pandas>=1.5.0
+scikit-learn>=1.2.0
+scipy>=1.10.0
+
+# ── Imbalanced data ───────────────────────────────────────────────────────────
+imbalanced-learn>=0.10.0
+
+# ── Gradient Boosting ─────────────────────────────────────────────────────────
+xgboost>=1.7.0
+
+# ── Explainability ────────────────────────────────────────────────────────────
+shap>=0.41.0
+
+# ── Deep learning (CPU mode — no GPU needed) ──────────────────────────────────
+tensorflow>=2.12.0
+# OR alternatively: tensorflow-cpu>=2.12.0
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# ── Dashboard (Part E) ────────────────────────────────────────────────────────
+streamlit>=1.22.0
+
+# ── Jupyter notebook ──────────────────────────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# ── Model persistence ─────────────────────────────────────────────────────────
+joblib>=1.2.0
